@@ -1,0 +1,16 @@
+.Table{
+    border: 1px solid;
+}
+th, td{
+    border: 1px border;
+    text-align: center;
+    padding: 8px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tr{
+    border-bottom: 1px solid;
+    background-color: rgb(245, 241, 194);
+}
