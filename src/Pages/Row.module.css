@@ -1,0 +1,12 @@
+.trow button{
+    border: none;
+    background-color: rgb(76, 73, 15);
+    padding: 8px;
+    color: white;
+    border-radius: 3px;
+}
+.trow input{
+    padding: 7px;
+    border: 2px solid;
+    font-family: cursive;
+}

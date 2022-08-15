@@ -1,8 +1,12 @@
 import React from "react";
+import classes from "../Pages/Row.module.css"
 
 const Row = (props) => {
     return ( 
-        <tr>
+        <tr className={classes.trow}>
+            <td>
+                {props.index + 1}
+            </td>
             <td> 
                 <input 
                 onChange={props.handleEditFormData}

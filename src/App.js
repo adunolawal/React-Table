@@ -6,6 +6,7 @@ import Table from './Pages/Table';
 import Info from './Pages/AddInfo';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -15,8 +16,7 @@ function App() {
           <Route path='/Table' element={<Table></Table>} />
           <Route path='/Info' element={<Info></Info>} />
         </Routes>
-      </Router>
-      
+      </Router>     
     </div>
   );
 }

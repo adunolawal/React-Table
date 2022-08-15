@@ -14,3 +14,11 @@ table{
     border-bottom: 1px solid;
     background-color: rgb(245, 241, 194);
 }
+.Table button{
+    border: none;
+    background-color: rgb(89, 84, 13);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: cursive;
+}

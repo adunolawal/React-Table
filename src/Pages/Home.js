@@ -4,6 +4,7 @@ import data from "./mock-data.json"
 import Row from "./Row";
 import AddInfo from "./AddInfo";
 
+
 const Home = () => {
 
     const [editContactId, setEditContactId] = useState(null);
@@ -40,6 +41,7 @@ const Home = () => {
         newData[fieldName] = fieldValue;
         
         setAddData(newData)
+       
     }
 
     const handleEditFormSubmit = (event) => {
@@ -102,12 +104,13 @@ const Home = () => {
     return ( 
         <div>
             <AddInfo  handleAddition={handleAddition} 
-                handleSubmit={handleSubmit} > 
+                handleSubmit={handleSubmit}  > 
             </AddInfo>
             <form onSubmit={handleEditFormSubmit}> 
             <table className={classes.Table}>
                 <thead>
                     <tr className={classes.tr}>
+                        <th>S/N</th>
                         <th>Name</th>                      
                         <th>Address</th>                       
                         <th>Phone Number</th>
@@ -116,12 +119,13 @@ const Home = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {contacts.map((contact) => (
+                    {contacts.map((contact, index) => (
                        <Fragment>
                             {editContactId === contact.id ?
-                            <Row editFormData={editFormData} 
+                            <Row index={index} editFormData={editFormData} 
                             handleEditFormData={handleEditFormData}/> :
                        <tr onDoubleClick={() => handleDelete(contact.id)}>
+                         <td>{index + 1}</td>
                          <td> {contact.name} </td>
                          <td> {contact.address} </td>
                          <td> {contact.phoneNumber} </td>
@@ -138,7 +142,7 @@ const Home = () => {
             </table>
             </form>
         </div>
-     );
+    );
 }
  
 export default Home;

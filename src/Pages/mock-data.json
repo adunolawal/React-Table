@@ -1,30 +1,30 @@
 [
     {
         "id": 1,
-        "name": "Jenny Chan",
-        "address" : "3 kosofe house",
+        "name": "Philip Edeh",
+        "address" : "25, Fadeyi off Yaba street",
         "phoneNumber" : "08099665432",
-        "email" : "jenny@email.com"
+        "email" : "philipedeh@gmail.com"
     },
     {
         "id": 2,
-        "name": "Jessica William",
-        "address" : "5 Palmgroove house",
-        "phoneNumber" : "090874533322",
-        "email" : "jessica@email.com"
+        "name": "Caleb Tolorunleke",
+        "address" : "5, Palmgroove house",
+        "phoneNumber" : "09087453322",
+        "email" : "calebT@email.com"
     },
     {
         "id": 3,
-        "name": "Tony Frank",
-        "address" : "11 Alaketu house",
-        "phoneNumber" : "090876543899",
-        "email" : "tony.long@email.com"
+        "name": "Favour Chukwuedo",
+        "address" : "11, Ikoyi house",
+        "phoneNumber" : "09087654399",
+        "email" : "favour@gmail.com"
     },
     {
         "id": 4,
-        "name": "Serena Joe",
-        "address" : "8  Liberty Villa",
-        "phoneNumber" : "07098544743",
-        "email" : "jenny@email.com"
+        "name": "Lawal Adunola",
+        "address" : "8, Liberty Villa",
+        "phoneNumber" : "0709854743",
+        "email" : "adunolalawal@gmail.com"
     }
 ]
