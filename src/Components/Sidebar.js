@@ -2,7 +2,7 @@
 export const Sidebar = [
     {
         title: 'Home',
-        path: '/Home'
+        path: '/'
     },
     {
         title: 'Table',

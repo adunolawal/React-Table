@@ -12,11 +12,11 @@ function App() {
       <Router>
         <Navbar> </Navbar>
         <Routes>
-          <Route path='/Home' exact element={<Home></Home>} />
+          <Route path='/' exact element={<Home></Home>} />
           <Route path='/Table' element={<Table></Table>} />
           <Route path='/Info' element={<Info></Info>} />
         </Routes>
-      </Router>     
+      </Router>  
     </div>
   );
 }
